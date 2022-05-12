@@ -3,3 +3,14 @@
 ################################################################################
 
 *.suo
+*.json
+/Library/Artifacts
+/Library/Bee
+/Library/PackageCache
+/Library/PackageManager
+/Library/ScriptAssemblies
+/Library/Search
+/Library/ShaderCache
+/Logs
+/obj/Debug
+/Temp
