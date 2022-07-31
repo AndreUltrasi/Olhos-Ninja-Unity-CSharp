@@ -82,7 +82,8 @@ public class InstanciarObjetos : MonoBehaviour {
 		if(item.transform.position.x > 0){
 			//item.rigidbody2d.AddForce() obsoleto
 			item.GetComponent<Rigidbody2D>().AddForce (new Vector2 (-leftForce, upForce));
-		}else{
+		}
+		else{
 			//item.rigidbody2d.AddForce() obsoleto
 			item.GetComponent<Rigidbody2D>().AddForce (new Vector2 (leftForce, upForce));
 		}
